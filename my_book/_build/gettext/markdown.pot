@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-01 17:47-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../markdown.md:1
+msgid "Markdown Files"
+msgstr ""
+
+#: ../../markdown.md:3
+msgid "Whether you write your book's content in Jupyter Notebooks (`.ipynb`) or in regular markdown files (`.md`), you'll write in the same flavor of markdown called **MyST Markdown**. This is a simple file to help you get started and show off some syntax."
+msgstr ""
+
+#: ../../markdown.md:8
+msgid "What is MyST?"
+msgstr ""
+
+#: ../../markdown.md:10
+msgid "MyST stands for \"Markedly Structured Text\". It is a slight variation on a flavor of markdown called \"CommonMark\" markdown, with small syntax extensions to allow you to write **roles** and **directives** in the Sphinx ecosystem."
+msgstr ""
+
+#: ../../markdown.md:15
+msgid "For more about MyST, see [the MyST Markdown Overview](https://jupyterbook.org/content/myst.html)."
+msgstr ""
+
+#: ../../markdown.md:17
+msgid "Sample Roles and Directives"
+msgstr ""
+
+#: ../../markdown.md:19
+msgid "Roles and directives are two of the most powerful tools in Jupyter Book. They are kind of like functions, but written in a markup language. They both serve a similar purpose, but **roles are written in one line**, whereas **directives span many lines**. They both accept different kinds of inputs, and what they do with those inputs depends on the specific role or directive that is being called."
+msgstr ""
+
+#: ../../markdown.md:26
+msgid "Here is a \"note\" directive:"
+msgstr ""
+
+#: ../../markdown.md:29
+msgid "Here is a note"
+msgstr ""
+
+#: ../../markdown.md:32
+msgid "It will be rendered in a special box when you build your book."
+msgstr ""
+
+#: ../../markdown.md:34
+msgid "Here is an inline directive to refer to a document: {doc}`markdown-notebooks`."
+msgstr ""
+
+#: ../../markdown.md:37
+msgid "Citations"
+msgstr ""
+
+#: ../../markdown.md:39
+msgid "You can also cite references that are stored in a `bibtex` file. For example, the following syntax: `` {cite}`holdgraf_evidence_2014` `` will render like this: {cite}`holdgraf_evidence_2014`."
+msgstr ""
+
+#: ../../markdown.md:43
+msgid "Moreover, you can insert a bibliography into your page with this syntax: The `{bibliography}` directive must be used for all the `{cite}` roles to render properly. For example, if the references for your book are stored in `references.bib`, then the bibliography is inserted with:"
+msgstr ""
+
+#: ../../markdown.md:52
+msgid "Learn more"
+msgstr ""
+
+#: ../../markdown.md:54
+msgid "This is just a simple starter to get you started. You can learn a lot more at [jupyterbook.org](https://jupyterbook.org)."
+msgstr ""
